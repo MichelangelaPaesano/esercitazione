@@ -15,7 +15,6 @@ public class App {
 
         System.out.println("Fino a quale dividendo");
         int dividendo = scan.nextInt();
-        int risultato = 0;
 
         for(int i = 0; i <= dividendo; i++) {
             System.out.println(numero * i);
