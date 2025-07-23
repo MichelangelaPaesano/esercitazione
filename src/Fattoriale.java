@@ -11,10 +11,12 @@ public class Fattoriale {
 
         System.out.println("Scegli un numero");
         int numero = scan.nextInt();
-        int risultato = 0;
+        int risultato = 1;
 
-        for(int i = 0; i<= numero; i++){
-            System.err.println(numero * i);
+        for(int i = 1; i<= numero; i++){
+            risultato = risultato * i;
         };
+
+        System.out.println("Il fattoriale di " + numero + " è " + risultato);
 }
 }
